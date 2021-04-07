@@ -78,8 +78,8 @@ jobs:
 
     - name: Functional Testing
       run: |
-        ./aria2c https://raw.githubusercontent.com/P3TERX/aria2.conf/master/dht.dat
-        ./aria2c https://raw.githubusercontent.com/P3TERX/aria2.conf/master/dht6.dat
+        ./aria2c https://raw.githubusercontent.com/tingv/aria2.conf/master/dht.dat
+        ./aria2c https://raw.githubusercontent.com/tingv/aria2.conf/master/dht6.dat
         ./aria2c \
           --seed-time=0 \
           --enable-dht6=true \
